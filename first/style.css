@@ -1,0 +1,38 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.header {
+	background: gray;
+	clear: both;
+	height: 100px;
+}
+
+.left {
+	background: silver;
+	float: left;
+	clear: left;
+	width: 150px;
+	height: 100%;
+}
+
+.right {
+	background: silver;
+	float: right;
+	clear: right;
+	width: 150px;
+	height: 100%;
+}
+
+.footer {
+	background: black;
+	height: 75px;
+	width: 95%;
+	bottom: 0%;
+	position: absolute;
+	z-index: -1;
+}
